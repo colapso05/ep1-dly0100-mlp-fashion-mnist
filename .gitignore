@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Salidas y artefactos locales
+ejecucion.log
+*.log
+
+# Caché del dataset (30 MB): se descarga solo con keras.datasets.fashion_mnist
+data/fashion_mnist.npz
+
+# Carpetas de trabajo internas (no forman parte de la entrega)
+_interno/
+referencias_*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

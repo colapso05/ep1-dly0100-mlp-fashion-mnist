@@ -1,0 +1,15 @@
+configuración,accuracy,f1_macro,params
+MODELO FINAL (todos los datos),0.8776,0.8752797115285814,109386
+"Base (128-64, relu, adam 0.001, sin reg.)",0.867,0.8676809515425458,109386
+pérdida = categorical_crossentropy,0.867,0.8676809515425458,109386
+optimizador = adam,0.867,0.8676809515425458,109386
+regularización: Sin regularización,0.867,0.8676809515425458,109386
+activación = relu,0.867,0.8676809515425458,109386
+regularización: Dropout 0.3,0.867,0.8659786079246488,109386
+pérdida = mean_squared_error,0.8632,0.8629405912914931,109386
+activación = tanh,0.863,0.8628480654271176,109386
+activación = sigmoid,0.8616,0.860919609962562,109386
+optimizador = rmsprop,0.8594,0.8587825257670382,109386
+regularización: Dropout + BatchNorm,0.8548,0.8507052933917703,109386
+regularización: Batch Normalization,0.8533,0.8527048490034131,109386
+optimizador = sgd,0.8141,0.8087284233562017,109386
